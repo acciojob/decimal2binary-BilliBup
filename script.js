@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
-   let num = decimal.toString(2);
+   let num = arr.toString(2);
 	return num;
 }
 
