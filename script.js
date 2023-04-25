@@ -1,7 +1,9 @@
 function threeSum(arr, target) {
-// write your code here
-   let num = arr.toString(2);
-	return num;
-}
+let binaryString = "";
+  while (arr > 0) {
+    binaryString = (arr % 2) + binaryString;
+    arr = Math.floor(arr / 2);
+  }
+  return binaryString;
 
 module.exports = threeSum;
